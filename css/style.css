@@ -3,20 +3,47 @@ body {
 }
 
 .container {
+    background-color: white;
     border-style: 1px solid black;
-    border-width: 1px;
-    margin: 10px;
-    max-width: 500px ;
-    border-radius: 8px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    transition: all 0.3 ease-in-out;
+    margin-left: 20px;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px;
 }
 
 .container img {
-    width: 100%;
-    height: auto;
+    width: 700px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-p {
+.container h2 {
+    padding: 15px;
+    margin: auto;
+}
+
+.container p {
     text-align: justify;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 15px;
+    margin: 0;
+}
+
+.read-more-link {
+    color: #1a0dab;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px 15px 15px;
+}
+
+.read-more-link:hover {
+    color: #0066cc;
+    text-decoration: underline;
 }
