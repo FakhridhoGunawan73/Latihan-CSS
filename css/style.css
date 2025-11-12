@@ -1,0 +1,22 @@
+body {
+    background-color: #F8F4EC;
+}
+
+.container {
+    border-style: 1px solid black;
+    border-width: 1px;
+    margin: 10px;
+    max-width: 500px ;
+    border-radius: 8px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: justify;
+    padding-left: 16px;
+    padding-right: 16px;
+}
