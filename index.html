@@ -7,20 +7,93 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <h1>My Blog</h1>
+        <nav class="navbar-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <div class="container">
-            <img src="assets/images/parfume.jpg" alt="parfume">
-            <h2>Givenchy Gentleman: The Earthy Elegance</h2>
-            <p>
-                This product elegantly presents a bottle of Givenchy Gentleman cologne, featuring a modern black and clear design, dramatically nestled among rugged pieces of weathered driftwood. The composition uses soft, directional lighting and a muted beige background to create a moody and sophisticated aesthetic. This arrangement emphasizes a connection to natural, masculine elements, transforming the fragrance into a luxurious, timeless item that appeals to consumers seeking a classic yet powerful scent.
-            </p>
-            <p>
-                <a href="#" class="read-more-link">Read full article &rarr;</a>
-            </p>
+    <!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->
+    <main class="container">
+        <div class="content-grid">
+            <section class="latest-posts">
+                <h2>Latest Posts</h2>
+                <article class="post-card">
+                    <img src="assets/images/parfume2.jpg" alt="">
+                    <div class="post-content">
+                        <h3>The Future of Web Development</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui illo eos ullam tenetur deserunt magnam? Ex, facilis est doloribus in dicta alias repudiandae iure aperiam nihil sunt tempore, dolore laboriosam?</p>
+                        <a href="#">Read More &rarr;</a>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <img src="assets/images/parfume3.jpg" alt="">
+                    <div class="post-content">
+                        <h3>Mastering Java Script</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, tempore beatae. Et expedita, sapiente maiores neque placeat doloremque, magni eum perspiciatis explicabo dicta voluptas cupiditate autem accusamus</p>
+                        <a href="#">Read More &rarr;</a>
+                    </div>
+                </article>
+            </section>
+        <aside class="sidebar">
+
+            <div class="widget-categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#"></a>Design</li>
+                    <li><a href="#"></a>Development</li>
+                </ul>
+            </div>
+
+            <div class="widget-author-info">
+                <h3>About the author</h3>
+                <div class="author-details">
+                    <img src="assets/images/Logo_Profile.png" alt="">
+                    <div>
+                        <h4>Fakhridho Gunawan</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <p class="author-bio">Passionate about creating beautiful and functional web experiences...</p>
+                </div>
+            </div>
+        </aside>
         </div>
+            <section>
+                <h2>Featured Lesson</h2>
+                <article>
+                    <div class="card-container">
+                        <img src="assets/images/parfume.jpg" alt="parfume">
+                        <h3>Givenchy Gentleman: The Earthy Elegance</h3>
+                        <p>
+                            This product elegantly presents a bottle of Givenchy Gentleman cologne, featuring a modern black and clear design, dramatically nestled among rugged pieces of weathered driftwood. The composition uses soft, directional lighting and a muted beige background to create a moody and sophisticated aesthetic. This arrangement emphasizes a connection to natural, masculine elements, transforming the fragrance into a luxurious, timeless item that appeals to consumers seeking a classic yet powerful scent.
+                        </p>
+                        <p>
+                            <a href="#" class="read-more-link">Read full article &rarr;</a>
+                        </p>
+                    </div>
+                </article>
+            </section>
+        <!-- <section>
+            <article>
+                <h2>Featured Lesson</h2>
+                <div class="container">
+                    <img src="assets/images/parfume.jpg" alt="parfume">
+                    <h3>Givenchy Gentleman: The Earthy Elegance</h3>
+                    <p>
+                        This product elegantly presents a bottle of Givenchy Gentleman cologne, featuring a modern black and clear design, dramatically nestled among rugged pieces of weathered driftwood. The composition uses soft, directional lighting and a muted beige background to create a moody and sophisticated aesthetic. This arrangement emphasizes a connection to natural, masculine elements, transforming the fragrance into a luxurious, timeless item that appeals to consumers seeking a classic yet powerful scent.
+                    </p>
+                    <p>
+                        <a href="#" class="read-more-link">Read full article &rarr;</a>
+                    </p>
+                </div>
+            </article>
+        </section> -->
     </main>
     <footer>
 
